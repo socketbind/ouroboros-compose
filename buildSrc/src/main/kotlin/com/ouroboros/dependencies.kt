@@ -1,14 +1,14 @@
 package com.ouroboros
 
 object Libs {
-    const val androidGradlePlugin = "com.android.tools.build:gradle:7.2.2"
+    const val androidGradlePlugin = "com.android.tools.build:gradle:7.3.1"
 
     const val junit = "junit:junit:4.13"
 
     const val material = "com.google.android.material:material:1.4.0"
 
     object Kotlin {
-        const val version = "1.6.10"
+        const val version = "1.7.10"
         const val stdlib = "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$version"
         const val gradlePlugin = "org.jetbrains.kotlin:kotlin-gradle-plugin:$version"
     }
@@ -45,7 +45,7 @@ object Libs {
         const val navigationCompose = "androidx.navigation:navigation-compose:2.5.1"
 
         object Compose {
-            const val version = "1.1.1"
+            const val version = "1.3.1"
 
             const val runtime = "androidx.compose.runtime:runtime:$version"
             const val foundation = "androidx.compose.foundation:foundation:${version}"
