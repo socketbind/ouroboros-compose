@@ -12,10 +12,10 @@ plugins {
 
 android {
     compileSdk 33
-    namespace = "com.bridge.ouroboros.exampleapplication"
+    namespace = "com.bridge.ouroboros.example.mastodonapp"
 
     defaultConfig {
-        applicationId "com.bridge.ouroboros.exampleapplication"
+        applicationId "com.bridge.ouroboros.example.mastodonapp"
         minSdk 21
         targetSdk 33
         versionCode 1

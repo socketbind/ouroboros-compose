@@ -1,6 +1,6 @@
 // Disabled until Compose can use a stable Android Gradle plugin:
 
-include ':core', ':test', ':example-app'
+include ':core', ':test', ':example-app', ':example-mastodon-client'
 rootProject.name = 'ouroboros-compose'
 
 dependencyResolutionManagement {
